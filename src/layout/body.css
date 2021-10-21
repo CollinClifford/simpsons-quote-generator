@@ -1,0 +1,9 @@
+.img-fluid {
+  width: 30%;
+}
+
+@media all and (max-width: 400px) {
+  .img-fluid {
+    width: 100%;
+  }
+}

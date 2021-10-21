@@ -1,0 +1,20 @@
+.img-fluid {
+  width: 20%;
+}
+
+@media all and (max-width: 400px) {
+  .img-fluid {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .imgbox {
+    display: grid;
+    height: 100%;
+  }
+  .center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+  }
+}
